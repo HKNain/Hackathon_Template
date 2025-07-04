@@ -1,3 +1,4 @@
+import React from 'react'
 import { Route,Routes } from 'react-router-dom'
 import Combined from './components/Combined'
 import Home from './pages/Home/Home'
@@ -8,6 +9,7 @@ import SignUp from './pages/Authentication/SignUp'
 
 const App = () => {
   return (
+    
     <Routes >
       <Route path='/' element={<Combined>
         <Home/>
@@ -29,4 +31,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
