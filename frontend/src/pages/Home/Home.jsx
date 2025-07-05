@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState, useRef, useEffect } from "react";
 import { Link, NavLink } from "react-router-dom";
 import FeatureCard from "./FeatureCard";
@@ -264,3 +265,10 @@ function Home() {
 }
 
 export default Home;
+=======
+import React from 'react';
+
+export default function Home() {
+    return <div>Home Page</div>;
+}
+>>>>>>> e5e6787 (Login and SignUp)
